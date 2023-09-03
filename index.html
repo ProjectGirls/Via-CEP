@@ -21,11 +21,16 @@
       <section id="form-section" class="form-container">
         <div class="card-form">
 <section class="list-container">
-<img src="./image/logo.gif" class="icon" alt = "logo" width="200" height="200">
-</section>
+<img src="./image/logo.gif" class="icon" alt = "logo" width="200" height="200"
         </div>
       </section>
-      
+      <form name="novoEndereco">
+    <div class="form-control">
+        <label class="label" for="cep">CEP: </label>
+        <input class="form-input" name="cep" type="text" placeholder="CEP" id="cep">
+    </div>
+    <div class="mensagem-erro" data-error="cep"></div>
+</form>
     </main>
 
     <!-- lista de endereços -->
